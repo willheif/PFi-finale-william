@@ -164,5 +164,13 @@ padding: 0 6px;
         margin: 0 auto;
     }
 
-
+a, a:link {
+color: #e6af51;
+}
+a:hover {
+color: #db7448;
+}
+a:active {
+color: #212121;
+}
   
