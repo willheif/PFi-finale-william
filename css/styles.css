@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Alata');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto ;
+    background-color: rgb(255, 254, 247);
+    
+}
+.header  {
+ position: fixed;
+ 
+}
+.headerlayout {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    padding-bottom: 20px;
+   
+}
+.headerlayout img {
+    width: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menustyle {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 3px solid rgb(22, 56, 53);
+}
+
+.menustyle a {
+    min-width: 100px;
+    font-size: 1em;
+    font-family: 'alata', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(32, 40, 30);
+    border-radius: 6px;
+    padding: 2px 1px 3px 4px;
+
+}
+
+.menustyle a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(218, 106, 75);
+}
+
+.menustyle a:active {
+    background-color: rgb(207, 161, 140);
+}
+
+.menustyle .selected {
+    background-color: rgb(240, 199, 119);
+}
+i {
+    padding: 0.2px;
+    margin: 5px;
+}
+
+.informations  {
+    text-align: justify;
+    font-family: 'Incosolata' , monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contentflex {
+    display: grid;
+    padding: auto;
+    margin: auto 0;
+}
+.maincontenue {
+    display: block;
+    max-width: 1000px;
+    min-width: 100px;
+    padding: 20px;
+    margin-left: 5px;
+    text-align: justify ;
+    font-size: 1.3em;
+    font-family: 'Martian Mono', monospace;
+}
+.video  {
+    display: block;
+    padding: 5px;
+    text-align: left;
+    float: left;
+    
+  
+}
+.text3 {
+    display: block;
+    text-align: right ;
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+audio {
+
+   text-align: center; 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+@media (min-width: 405px) and (max-width: 3200px) {
+.column{
+flex: 35%;
+max-width: 55%;
+padding: 0 6px;
+
+}
+.column img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+    min-height: fit-content;
+}
+}
+.maincontenu {
+    padding: 20px ;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+   
+   }
+   .header {
+    display: grid;
+    grid-template-columns: auto 30%;
+    max-width: 1000px;
+}
+.bio {
+    display: block;
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.avatar {
+    display: block;
+        background-image: url('https://willheif.github.io/TP2/images/avater.png');
+        height: 250px;
+        width: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 260px;
+        float: right;
+        margin: 0 auto;
+    }
+
+
+  
